@@ -13,6 +13,7 @@ pip install faiss-cpu
 pip install sentence-transformers
 ```
 ## Run
+It will create index from data under `/index` (if there is none) and retrieve matched tasks.
 ```
 python retrieve.py
 ```
